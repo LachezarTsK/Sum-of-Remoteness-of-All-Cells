@@ -37,7 +37,7 @@ function createSumValuesPerConnectedElements(matrix) {
  * @param {UnionFind} unionFind
  * @param {number[][]} matrix
  * @param {number[]} sumValuesPerConnectedElements
- * @return {void}
+ * @return {number}
  */
 function calculateSumRemoteness(unionFind, matrix, sumValuesPerConnectedElements) {
     const sumAllValuesInMatrix = calculateSumAllValuesInMatrix(matrix);
